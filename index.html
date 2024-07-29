@@ -91,16 +91,17 @@
                     </div>
                 </div>
                 <div id="contact" class="contact">
-                    <div class="contact_head_color"></div>
-                    <h1>CONTACTO</h1>
-                    <form method="post" class="contact_form">
-                        <input class="form_input" type="text" name="name" id="name" placeholder="NOMBRE">
-                        <input class="form_input" type="email" name="email" id="email" placeholder="CORREO ELECTRÓNICO">
-                        <input class="form_input" type="text" name="phone" id="phone" placeholder="TELÉFONO">
-                        <textarea class="form_input" name="message" id="message" cols="60" rows="4" placeholder="MENSAJE"></textarea>
-                        <input type="submit" id="submit" value="Enviar">
-                    </form>
-                </div>
+    <div class="contact_head_color"></div>
+    <h1>CONTACTO</h1>
+    <form method="post" action="process_form.php" class="contact_form">
+        <input class="form_input" type="text" name="name" id="name" placeholder="NOMBRE" required>
+        <input class="form_input" type="email" name="email" id="email" placeholder="CORREO ELECTRÓNICO" required>
+        <input class="form_input" type="text" name="phone" id="phone" placeholder="TELÉFONO" required>
+        <textarea class="form_input" name="message" id="message" cols="60" rows="4" placeholder="MENSAJE" required></textarea>
+        <input type="submit" id="submit" value="Enviar">
+    </form>
+</div>
+
             </div>
             <div class="footer">
                 <div class="footer_links">
