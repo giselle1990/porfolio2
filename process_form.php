@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars(trim($_POST['message']));
 
     // Establecer el destinatario del correo electrónico
-    $to = "tucorreo@ejemplo.com"; // Reemplaza con tu dirección de correo electrónico
+    $to = "info@salidelveraz.com"; // Reemplaza con tu dirección de correo electrónico
 
     // Establecer el asunto del correo
     $subject = "Nuevo mensaje del formulario de contacto";
